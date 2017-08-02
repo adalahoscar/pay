@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paymant Wall</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		
+
+
+		
+		<div class="container text-center">
+
+			<div class="col-md-4">
+				<div class="panel-group">
+					<div class="panel panel-account">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								ACCOUNT
+							</h4>
+						</div>
+
+						<div class="panel-body pad20">
+							<div class="item active center-block">
+								<center>
+									<img src="images/card.png" alt="" class="img-responsive">
+								</center>
+
+								<div class="carousel-caption">
+									<p>
+										Bayu Suwarning Hadi
+										<br>
+										1678 7282 8220 8900
+									</p>
+								</div>
+							</div>
+							<h1>1000</h1>
+							<p>SedayuOne Points</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="col-md-8 col-sm-12 text-left">
+
+					<div class="panel-group" id="cart">
+						<div class="panel panel-cart">
+							<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#cart" data-target="#question0">
+								<h4 class="panel-title">
+									<a href="#" class="ing">3 Items</a>
+								</h4>
+							</div>
+							<div id="question0" class="panel-collapse collapse">
+								<div class="panel-body">
+
+									<div class="row">
+										<div class="col-md-12">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<h3 class="panel-title"><strong>Order summary</strong></h3>
+												</div>
+												<div class="panel-body">
+													<div class="table-responsive">
+														<table class="table table-condensed">
+															<thead>
+															<tr>
+																<td><strong>Item</strong></td>
+																<td><strong>Price</strong></td>
+																<td><strong>Quantity</strong></td>
+																<td><strong>Totals</strong></td>
+															</tr>
+															</thead>
+															<tbody>
+															<!-- foreach ($order->lineItems as $line) or some such thing here -->
+															<tr>
+																<td>Guardian of Galaxy 2</td>
+																<td>Rp 30.000</td>
+																<td>1</td>
+																<td>Rp 30.000</td>
+															</tr>
+															<tr>
+																<td>Coke</td>
+																<td>Rp 30.000</td>
+																<td>1</td>
+																<td>Rp 30.000</td>
+															</tr>
+															<tr>
+																<td>popcorn</td>
+																<td>Rp 30.000</td>
+																<td>1</td>
+																<td>Rp 30.000</td>
+															</tr>
+															<tr>
+																<td class="thick-line"></td>
+																<td class="thick-line"></td>
+																<td class="thick-line"><strong>Subtotal</strong></td>
+																<td class="thick-line">Rp 90.000</td>
+															</tr>
+															<tr>
+																<td class="no-line"></td>
+																<td class="no-line"></td>
+																<td class="no-line"><strong>Deduct Point</strong></td>
+																<td class="no-line">300 Point</td>
+															</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/panel-group-->
+
+				<div class="panel-group">
+					<div class="panel panel-pay">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								PAYMENT CONFIRMATION
+							</h4>
+						</div>
+
+
+						<div class="panel-body">
+
+							<center>
+								<div class="col-md-12 text-left">
+									<img class="img-responsive" src="images/logo.png">
+									<div class="clearfix"></div>
+								</div>
+							</center>
+							<div class="col-xs-12">
+								<div class="invoice-title">
+									<h2>Invoice</h2><h3 class="pull-right">Order <a href="#">#72gd820fnvksbg</a> </h3>
+								</div>
+
+								<div class="invoice-subtitle">
+									<strong><h4>Total Deduct</h4><h4 class="pull-right">300 SedayuOne Point</h4></strong>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-xs-6">
+										<address>
+											<strong>Billed To:</strong><br>
+											Bayu Suwarning Hadi<br>
+										</address>
+									</div>
+									<div class="col-xs-6 text-right">
+										<address>
+											<strong>Payment For</strong><br>
+											Flix Cinema<br>
+										</address>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-6">
+										<address>
+											<strong>Payment Method:</strong><br>
+											SedayuOne Point **** 4242<br>
+											member@gmail.com
+										</address>
+									</div>
+									<div class="col-xs-6 text-right">
+										<address>
+											<strong>Order Date:</strong><br>
+											March 7, 2014<br><br>
+										</address>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-xs-12">
+								<div class="clearfix">
+									<div class="btn btn-default pull-left">Back to Merchant</div>
+									<div class="btn btn-pay pull-right">Pay with Point</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- The popover content -->
+
+			<div class="col-md-12">
+				<footer class="footer">
+					<p>
+						Powered by <a href="https://gilkor.com/">Gilkor</a>
+					</p>
+				</footer>
+			</div>
+		<!-- JavaScript includes -->
+
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/customjs.js"></script>
+
+	</body>
+</html>
